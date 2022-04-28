@@ -1,0 +1,23 @@
+setCompatibilityList([
+    '()=>{}',
+    'const a =1;let b = 2',
+    'var a = {a:1}; var b = {...a}',
+    'var [a,b] = [1,2]',
+    'for(var i in {}){}',
+    'for(var i of []){}',
+    'for(var i=1;i<10;i++){}',
+    'JSON.parse("{}")',
+    'JSON.stringify({})',
+    'localStorage.setItem(1,1)',
+    'localStorage.getItem(1)',
+    // 'localStorage.clear()', 
+    'localStorage.key(1)',
+    'localStorage.removeItem(1)',
+    'Object.assign({},{})',
+    'Object.create(null)',
+    'Object.defineProperty({},{},{})',
+    'Object.entries({})',
+    'Object.keys({})',
+    'Object.freeze({})',
+    'Object.fromEntries([["a",1],["b",2]])'
+])
